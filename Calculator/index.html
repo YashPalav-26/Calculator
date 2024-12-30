@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="upper-div">
+          <input type="text" class="input-box" />
+        </div>
+        <div class="lower-div">
+          <input type="button" class="btns highlight all-clear" value="AC" />
+          <input type="button" class="btns highlight backspace" value="⌫" />
+          <input
+            type="button"
+            class="btns highlight"
+            value="."
+            onclick="display.value+='.'"
+          />
+          <input
+            type="button"
+            class="btns highlight"
+            value="/"
+            onclick="display.value+='/'"
+          />
+          <!--  -->
+          <input
+            type="button"
+            class="btns"
+            value="7"
+            onclick="display.value+='7'"
+          />
+          <input
+            type="button"
+            class="btns"
+            value="8"
+            onclick="display.value+='8'"
+          />
+          <input
+            type="button"
+            class="btns"
+            value="9"
+            onclick="display.value+='9'"
+          />
+          <input
+            type="button"
+            class="btns highlight"
+            value="*"
+            onclick="display.value+='*'"
+          />
+          <!--  -->
+          <input
+            type="button"
+            class="btns"
+            value="4"
+            onclick="display.value+='4'"
+          />
+          <input
+            type="button"
+            class="btns"
+            value="5"
+            onclick="display.value+='5'"
+          />
+          <input
+            type="button"
+            class="btns"
+            value="6"
+            onclick="display.value+='6'"
+          />
+          <input
+            type="button"
+            class="btns highlight"
+            value="-"
+            onclick="display.value+='-'"
+          />
+          <!--  -->
+          <input
+            type="button"
+            class="btns"
+            value="1"
+            onclick="display.value+='1'"
+          />
+          <input
+            type="button"
+            class="btns"
+            value="2"
+            onclick="display.value+='2'"
+          />
+          <input
+            type="button"
+            class="btns"
+            value="3"
+            onclick="display.value+='3'"
+          />
+          <input
+            type="button"
+            class="btns highlight"
+            value="+"
+            onclick="display.value+='+'"
+          />
+          <!--  -->
+          <input
+            type="button"
+            class="btns"
+            value="00"
+            onclick="display.value+='00'"
+          />
+          <input
+            type="button"
+            class="btns"
+            value="0"
+            onclick="display.value+='0'"
+          />
+          <input type="button" class="btns highlight equalsign" value="=" />
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
